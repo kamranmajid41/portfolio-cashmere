@@ -1,5 +1,7 @@
 [Try it out!](https://kamranmajid41.github.io/portfolio-cashmere/)
 
+(Note: the backend is running on render.com so it may have a spin-up delay in the demo.)
+
 ### Installation
 
 Clone the repository and install the frontend dependencies:

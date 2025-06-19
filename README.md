@@ -1,3 +1,5 @@
+https://github.com/user-attachments/assets/98d82dc3-3b06-4fbd-83f0-d6726c77bca9
+
 ### Installation
 
 Clone the repository and install the frontend dependencies:

@@ -1,4 +1,4 @@
-https://github.com/user-attachments/assets/98d82dc3-3b06-4fbd-83f0-d6726c77bca9
+![portfolio](https://github.com/user-attachments/assets/eba9f329-b75f-48ab-8c80-16f88a9979ad)
 
 ### Installation
 

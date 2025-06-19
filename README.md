@@ -6,7 +6,7 @@ Clone the repository and install the frontend dependencies:
 
 ```bash
 git clone https://github.com/kamranmajid41/portfolio-cashmere.git
-cd fullstack-take-home/frontend
+cd portfolio-cashmere/frontend
 npm install
 ```
 

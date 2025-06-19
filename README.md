@@ -10,10 +10,17 @@ npm install
 
 ### Running the app
 
-Start the development server:
+Start the frontend:
 
 ```bash
 npm run dev
+```
+
+Start the backend:
+
+```bash
+pip install -r requirements.txt
+uvicorn main:app --reload
 ```
 
 The app should now be running at http://localhost:5173 (or your configured port).

@@ -10,7 +10,7 @@ npm install
 
 ### Running the app
 
-Start the frontend:
+Start the frontend (or just go to [this page](https://kamranmajid41.github.io/portfolio-cashmere/)):
 
 ```bash
 npm run dev

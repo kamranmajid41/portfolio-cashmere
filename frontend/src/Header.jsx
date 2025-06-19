@@ -17,7 +17,7 @@ function Header({ setGoToContent, setGoToView }) {
             onClick={() => {setGoToContent(false); setGoToView(false)}} 
         >
         <Image
-            src="frontend/public/cashmere.png"
+            src="/portfolio-cashmere/cashmere.png"
             alt="Cashmere Icon"
             height={20}
             width={20}

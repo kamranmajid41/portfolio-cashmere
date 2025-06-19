@@ -14,7 +14,12 @@ app = FastAPI()
 # Configure CORS to allow requests from your frontend development server
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"], 
+    allow_origins=[
+        "http://localhost:5173", 
+        "http://127.0.0.1:5173",
+        "https://kamranmajid41.github.io/portfolio-cashmere",
+        "https://kamranmajid41.github.io"
+    ], 
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -23,12 +28,9 @@ app.add_middleware(
 UPLOAD_DIR = "./uploads"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
-# Mount the uploads directory to serve static files
 app.mount("/uploads", StaticFiles(directory=UPLOAD_DIR), name="uploads")
 
 # Simulated in-memory database for portfolios
-# In a real application, this would be a database (PostgreSQL, MongoDB, etc.)
-# We'll use a dictionary where key is user_id and value is a list of MediaItem
 portfolio_db: Dict[str, List['MediaItem']] = {}
 
 class MediaItem(BaseModel):
